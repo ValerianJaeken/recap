@@ -1,0 +1,11 @@
+body{
+  margin:50px;
+  padding:50px;
+}
+.headerM{
+  display:flex;
+}
+.hc{
+  display:flex;
+  justify-content: space-between;
+}
