@@ -4,6 +4,8 @@ body{
 }
 .headerM{
   display:flex;
+  width:35%;
+  justify-content: space-around;
 }
 .hc{
   display:flex;
