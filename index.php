@@ -1,3 +1,14 @@
+<?php 
+  
+  session_start();
+  
+
+ ?>
+
+
+
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -76,10 +87,10 @@
     <input type="submit" name="submit-up" value="signup">
   </form>
 
-  <form action="signin" method="POST">
+  <form action="login.php" method="POST">
     <input type="text" name="login" placeholder="login">
     <input type="password" name = "password" placeholder="password">
-    <input type="submit" name="submit-in" value="signin">
+    <input type="submit" name="submit-in" value="login">
   </form>
 
   <!-- cette section sera une galerie avec des div contenant texte et éventuellement background, qui enverront vers une histoire rentrée ou qui est déjà dans la database -->
@@ -99,7 +110,7 @@
     <a href="#">Romance</a>
     <a href="#">Police</a>
   </section>
-
+  <a href="https://www.gohkbkhjbkbhbbhogle.com">hello</a>
   <footer>
     <div class="f1">
       <ul>
