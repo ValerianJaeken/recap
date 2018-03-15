@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Training</title>
-    <!-- LIEN VERS LA PAGE CSS -->
 
-    <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <!-- FONT AWESOME -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-  </head>
-  <body>
-  <header class="hc">
-    <div class="headerM">
-      <p>Menu 1</p>
-      <p>Menu 2</p>
-      <p>Menu 3</p>
-      <p>Menu 4</p>
-    </div>
-    <div id="headerI" class="headerI">
-      <i  class="fab fa-facebook-square fa-2x"></i>
-      <i  class="fab fa-linkedin fa-2x"></i>
-      <i class="fab fa-youtube fa-2x"></i>
-      <i class="fab fa-twitch fa-2x"></i>
-      <i class="fab fa-twitter-square fa-2x"></i>
-    </div>
-    <div class="headerS">
-      <nav class="navbar navbar-light bg-light">
-        <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </nav>
-    </div>
-  </header>
+<head>
+  <meta charset="utf-8">
+  <title>Training</title>
+  <!-- LIEN VERS LA PAGE CSS -->
 
-  <!-- section 1 sera une grosse image classe avec du texte en arrière plan, éventuellement un carousel -->
-  <section class="s1">
-    <h3>This is me training, pretend this is a motivational one-liner.</h3>
-  </section>
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- FONT AWESOME -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
 
+<body>
+  <!-- div to have a background around the header + the first section -->
+  <div class="bgc">
+
+
+    <header class="hc">
+      <div class="headerM">
+        <p>Menu 1</p>
+        <p>Menu 2</p>
+        <p>Menu 3</p>
+        <p>Menu 4</p>
+      </div>
+      <div id="headerI" class="headerI">
+        <i class="fab fa-facebook-square fa-2x"></i>
+        <i class="fab fa-linkedin fa-2x"></i>
+        <i class="fab fa-youtube fa-2x"></i>
+        <i class="fab fa-twitch fa-2x"></i>
+        <i class="fab fa-twitter-square fa-2x"></i>
+      </div>
+      <div class="headerS">
+        <nav class="navbar navbar-light bg-light">
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </nav>
+      </div>
+    </header>
+
+    <!-- section 1 sera une grosse image classe avec du texte en arrière plan, éventuellement un carousel -->
+    <section class="s1">
+      <h3>Share your stories, show us the story-teller that's hiding in you, chapter by chapter !</h3>
+    </section>
+  </div>
   <!-- section 2 sera un formulaire pour écrire une histoire/livre/aventure/n'importe avec titre, histoire et nom de l'auteur -->
   <!-- enregistrer le titre + histoire par rapport au nom rentré dans en SQL -->
   <!-- pouvoir accéder aux titres cliquables pour lire les histoires en cherchant le nom -->
@@ -50,10 +56,10 @@
         <legend>Section 2</legend>
         <p>I'm not exactly sure what this section will be about or even the site, we just need some stuff and whatnot.</p>
         <ul>
-          <li>Title  <br><input type="text" name="s2t"><br></li>
+          <li>Title <br><input type="text" name="s2t"><br></li>
           <li>Genre</li>
 
-            <select>
+          <select>
               <option value="Horror">Horror</option>
               <option value="Thriller">Thriller</option>
               <option value="Martial_arts">Martial arts</option>
@@ -61,8 +67,8 @@
               <option value="Police">Police</option>
             </select>
 
-          <li>Content  <br><input type="text" name="s2c"><br></li>
-          <li>Author name  <br><input type="text" name="s2n"><br></li>
+          <li>Content <br><input type="text" name="s2c"><br></li>
+          <li>Author name <br><input type="text" name="s2n"><br></li>
           <button type="submit" name="button">Send</button>
         </ul>
       </fieldset>
@@ -115,5 +121,6 @@
     </div>
   </footer>
   <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
