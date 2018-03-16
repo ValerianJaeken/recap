@@ -30,7 +30,7 @@ body{
 }
 .bgc{
   height:100vh;
-  background-image: url("https://i.imgur.com/cpfKbls.jpg");
+  background-image: url("https://i.redd.it/fu1gglz420m01.jpg");
   background-size:100% 100%;
   background-repeat: no-repeat;
   top: 0;
@@ -38,6 +38,11 @@ body{
   right: 0;
   bottom: 0;
 }
+.headerI{
+  width:20%;
+  display:flex;
+  justify-content: space-around;
+}
 .s2{
-  position:bottom;
+
 }
